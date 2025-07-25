@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
   <title>Navbar Design</title>
   <link rel="stylesheet" href="style.css" />
 
@@ -52,7 +53,7 @@
 <!-- card section start -->
 
 
-<div class="mt-36 my-36">
+<div class="mt-14 my-14">
 
     <div class="flex flex-col items-center justify-center text-center">
         <h2 class=" text-xl md:text-5xl">Our <span class="text-orange-600">Plants</span></h2>
@@ -192,7 +193,7 @@
 
   <!-- card section end -->
    <!-- Flower & Plants Lover stard -->
-<div class="flex flex-col lg:flex-row items-center justify-between gap-8 px-20 py-8 ">
+<div class="flex flex-col lg:flex-row items-center justify-between gap-8 px-20  ">
   
   <!-- Image + Badge -->
   <div class="relative">
@@ -234,7 +235,7 @@
 </div>
 
 
-<div class="mt-28 my-10">
+<div class="mt-14 my-10">
        <div class="flex flex-col items-center justify-center text-center">
         <h2 class=" text-xl md:text-5xl"><span class="text-orange-600">Latest</span>   Deals</h2>
         <p class=" text-xs md:text-lg mt-4 text-gray-400 text-center">
@@ -243,6 +244,39 @@
     </div>
 </div>
 
+
+<!-- Latest  Deals section start -->
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-10 px-4">
+  <!-- First Column: Two stacked offers -->
+  <div class="flex flex-col gap-4">
+    <!-- Bloom Plant -->
+    <div class="relative bg-cover bg-center h-64 rounded-lg" style="background-image: url('./assets/deal-bloom.png');">
+      <div class="absolute inset-0 rana rounded-lg flex flex-col justify-center items-center text-white">
+        <h3 class="text-xl font-bold">60% Off | Bloom Plant</h3>
+        <a href="#" class="mt-2 text-sm underline">Shop Now</a>
+      </div>
+    </div>
+    
+    <!-- Ana Plant -->
+    <div class="relative bg-cover bg-center h-64 rounded-lg" style="background-image: url('./assets/deal-ana.png');">
+      <div class="absolute inset-0 rana rounded-lg flex flex-col justify-center items-center text-white">
+        <h3 class="text-xl font-bold">30% Off | Ana Plant</h3>
+        <a href="#" class="mt-2 text-sm underline">Shop Now</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second Column: Zabo Plant -->
+  <div>
+    <div class="relative bg-cover bg-center h-full min-h-64 rounded-lg" style="background-image: url('./assets/deal-zabo.png');">
+      <div class="absolute inset-0 rounded-lg flex flex-col justify-center items-center text-white">
+        <h3 class="text-2xl font-bold">25% Off | Zabo Plant</h3>
+        <a href="#" class="mt-2 text-base underline">Shop Now</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
